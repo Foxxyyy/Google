@@ -1,0 +1,128 @@
+#navdiv {
+    display: flex;
+    width: 10%;
+    margin-left: 88%;
+    justify-content: space-around;
+    margin-top: 1%;
+    height: 35px;
+}
+
+#menudiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-left: 20px;
+    width: 30%;
+}
+
+nav img {
+    margin-top: 5px;
+}
+
+#googleimg {
+    margin-top: 100px;
+    width: 20%;
+    height: 5%;
+}
+
+#menuimg {
+    width: 15%;
+    display: inline;
+}
+
+#searchimg {
+    margin-top: 4px;
+    width: 25%;
+}
+
+#micimg {
+    margin-top: 1px;
+    width: 25%;
+}
+
+a {
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+button {
+    border-radius: 3px;
+    height: 100%;
+    padding: 5px 10px;
+    background-color: #8ab4f8;
+    color: black;
+    border: none;
+}
+
+#mainDiv {
+    width: 35%;
+    border-radius: 50px;
+    display: flex;
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+
+#inputSpan {
+    width: 80%;
+}
+
+span {
+    vertical-align: top;
+}
+
+span:first-child {
+    width: 10%;
+    border-radius: 50px;
+    margin-top: 7px;
+}
+
+span:last-child {
+    width: 10%;
+    border-radius: 50px;
+    margin-top: 7px;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0px;
+}
+
+section {
+    display: flex;
+    margin-top: 2%;
+    width: 23%;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+section button{
+    padding:10px 12px;
+    background-color: lightgrey;
+    color:black;
+}
+
+ul{
+    display: flex;
+    width: 30%;
+    padding-left: 0px;
+    list-style: none;
+    justify-content: space-around;
+    margin: 6px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+    border: 1px solid gray;
+}
+
+.c {
+    color: black;
+    line-height: normal;
+    padding-right: 15px;
+    font-family: arial, sans-serif
+}
